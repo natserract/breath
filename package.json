@@ -1,0 +1,8 @@
+{
+  "name": "breath",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/natserract/breath.git",
+  "author": "natserract <benjaminstwo@gmail.com>",
+  "license": "MIT"
+}
