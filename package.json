@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/natserract/breath.git",
   "author": "natserract <benjaminstwo@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "setup": "sudo chmod +x ./libs/setup.sh && ./libs/setup.sh && sudo chmod +x makeComponent.sh",
+    "breath": "./makeComponent.sh"
+  }
 }

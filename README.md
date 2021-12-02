@@ -1,24 +1,18 @@
-# Tools for speed up your development
+# Breath: Tools for speed up your development
 
 ## Setup
 
 ```sh
-sudo chmod +x tools/makeComponent.sh
-
-# Or
-sudo chmod +x tools/renameGitFile.sh
+yarn setup
 ```
 
 ## Running
 
 ```sh
-./makeComponent.sh
-
-# Or
-./renameGitFile.sh
+yarn breath
 ```
 
-## Design API
+## API Design
 
 ### Default
 
@@ -39,7 +33,7 @@ sudo chmod +x tools/renameGitFile.sh
   ```sh
   # Capitalize allowed, but will transform to lowercase
   # Will generate automatically: `web/src/pages/DashboardPage`
-  ./makeComponent.sh -p dashboard
+  yarn breath -p dashboard
   ```
 
 ## Example Use
@@ -48,18 +42,24 @@ sudo chmod +x tools/renameGitFile.sh
 
   ```sh
   # Default (web/src/pages)
-  ./makeComponent.sh -p <page_name>
+  yarn breath -p <page_name>
 
   # With Custom Path
-  ./makeComponent.sh -p <page_name> -path <path_directory>
+  yarn breath -p <page_name> -path <path_directory>
   ```
 
 - Build component:
 
   ```sh
   # Default (web/src/components)
-  ./makeComponent.sh -c <component_name>
+  yarn breath -c <component_name>
 
   # With Custom Path
-  ./makeComponent.sh -c <component_name> -path <path_directory>
+  yarn breath -c <component_name> -path <path_directory>
   ```
+
+## By shell script
+```sh
+# Just type
+./makeComponent.sh $args
+```

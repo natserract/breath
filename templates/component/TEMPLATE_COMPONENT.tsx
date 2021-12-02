@@ -1,4 +1,8 @@
+import useStyles from './{{SUB_NAME}}.styles'
+
 const {{NAME}} = () => {
+  const classes = useStyles()
+
   return (
     <div>
       <h2>{'{{NAME}}'}</h2>
