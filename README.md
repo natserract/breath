@@ -30,7 +30,7 @@ yarn breath
 ## Rules
 
 - Only support one word
-- Lowercase input recomended
+- Lowercase input recommended
 - Build page/component, you don't need passing `Page / Component` again in your input, just type page/component **title**.
   ```sh
   # Capitalize allowed, but will transform to lowercase
